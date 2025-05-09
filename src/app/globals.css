@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #F37021;
+  --lightorrange: #FFDAC9;
 }
 
 @theme inline {
@@ -16,11 +18,40 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #F37021;
+    --lightorrange: #FFDAC9;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: var(--font-oswald), sans-serif; */
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.oswald-text {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.rounded-top-left-ellipse {
+  border-top-left-radius: 130% 100%;
+}
+
+.text-header {
+  color: var(--primary);
+}
+
+.bg-color {
+  background-color: var(--primary);
+}
+
+.bg-color-light {
+  background-color: var(--lightorrange);
+}
+
+

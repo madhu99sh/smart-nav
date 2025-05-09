@@ -1,7 +1,7 @@
 'use client'; // if using Next.js App Router
 import Image from 'next/image';
 import { db } from "../libs/firebase";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 
 export default function GetAQuoteSection() {

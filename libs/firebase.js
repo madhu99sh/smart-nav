@@ -3,12 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB5fAzYjaU3E0NX1CAop8KXj0unKC-Y27g",
+  authDomain: "smart-nav-f12c3.firebaseapp.com",
+  projectId: "smart-nav-f12c3",
+  storageBucket: "smart-nav-f12c3.firebasestorage.app",
+  messagingSenderId: "332693934069",
+  appId: "1:332693934069:web:430d1a25e8db5f14655abc",
+  measurementId: "G-D6T4ZEQ3GE"
 };
 
 const app = initializeApp(firebaseConfig);

@@ -2,6 +2,13 @@ import Image from "next/image";
 import droneImg from "../public/images/droneImg.png"; // Save your drone image here
 
 export default function Home() {
+  const scrollToQuoteForm = () => {
+    const quoteForm = document.getElementById('quote-form');
+    if (quoteForm) {
+      quoteForm.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="flex flex-col md:flex-row items-center justify-between pt-8 bg-black">
       <div className="md:w-1/2 space-y-6 text-center md:text-left p-6 md:p-10 md:ml-20">
@@ -12,7 +19,10 @@ export default function Home() {
           A single drone software platform with AI-driven data processing, real-time analytics,
           and cloud connectivity can revolutionize multiple industries.
         </p>
-        <button className="bg-color text-white px-8 py-6 rounded-bl-2xl rounded-tr-2xl font-bold transition">
+        <button 
+          onClick={scrollToQuoteForm}
+          className="bg-color text-white px-8 py-6 rounded-bl-2xl rounded-tr-2xl font-bold transition hover:bg-opacity-90"
+        >
           GET IN TOUCH
         </button>
       </div>

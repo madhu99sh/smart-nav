@@ -60,14 +60,14 @@ export default function GetAQuoteSection() {
   };
 
   return (
-    <section className="px-4 md:px-16 py-24 bg-white">
+    <section id="quote-form" className="px-4 md:px-16 py-24 bg-white">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-10 gap-10 items-stretch">
 
         {/* Form Section (30%) */}
         <div className="md:col-span-3 h-full">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-black">Get a Quote</h2>
           <p className="text-gray-700 mb-10 text-md md:text-xl">
-            We’re here to help! Whether you have questions about our services, need support,
+            We're here to help! Whether you have questions about our services, need support,
             or want to explore partnership opportunities, reach out to us.
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
@@ -120,7 +120,7 @@ export default function GetAQuoteSection() {
               disabled={submitting}
               className="bg-orange-500 text-white px-6 py-6 rounded-xl font-bold hover:bg-orange-600 transition"
             >
-              {submitting ? "Sending..." : "SEND MESSAGE"}
+              {submitting ? "Submiting..." : "Submit"}
             </button>
           </form>
         </div>

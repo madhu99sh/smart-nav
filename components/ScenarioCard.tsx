@@ -28,8 +28,17 @@ const ScenarioCard: React.FC<ScenarioCardProps> = ({
         className="w-full md:w-1/2 shadow"
       />
       <div className="md:w-1/2">
-        <h4 className="text-2xl  md:text-4xl font-bold leading-relaxed ">{title}</h4>
-        <p className="text-2xl md:text-3xl text-header font-semibold mt-8">How it Works:</p>
+        <h4 className="text-2xl md:text-4xl leading-relaxed">
+          <span className="font-bold">
+            {title.split(':')[0]}
+          </span>
+          {title.includes(':') && (
+            <span className="font-light">
+              :{title.split(':')[1]}
+            </span>
+          )}
+        </h4>
+        <p className="text-2xl md:text-3xl text-header font-semibold mt-8">How SmartNav Works:</p>
         <p className="text-lg md:text-2xl mt-8 text-gray-800 font-light">{howItWorks}</p>
       </div>
     </div>
@@ -38,4 +47,3 @@ const ScenarioCard: React.FC<ScenarioCardProps> = ({
 
 export default ScenarioCard;
 
-  

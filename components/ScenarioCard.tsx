@@ -33,9 +33,12 @@ const ScenarioCard: React.FC<ScenarioCardProps> = ({
             {title.split(':')[0]}
           </span>
           {title.includes(':') && (
+            <>
+            <br />
             <span className="font-light">
               :{title.split(':')[1]}
-            </span>
+            </span></>
+            
           )}
         </h4>
         <p className="text-2xl md:text-3xl text-header font-semibold mt-8">How SmartNav Works:</p>

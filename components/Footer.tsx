@@ -20,7 +20,7 @@ export default function FooterSection() {
         <div className="space-y-4 text-sm flex flex-col md:items-start items-center">
           <h4 className="font-bold uppercase text-white">Get in Touch</h4>
           <p className="flex items-center gap-2">
-            <FaMapMarkerAlt /> 900 SE 5th Street, Suite 22F, Bentonville AR 72712
+            <FaMapMarkerAlt /> 3604 NW Frontage Rd, suite 6, PMB 40, Bentonville, AR, 72712
           </p>
           <p className="flex items-center gap-2">
             <FaPhoneAlt /> +1 479 310 5053
@@ -58,7 +58,7 @@ export default function FooterSection() {
       </div>
 
       <div className="mt-10 text-center text-md text-white">
-        ©2024 company.com
+        ©2025 SmartNav LLC
       </div>
     </footer>
   );

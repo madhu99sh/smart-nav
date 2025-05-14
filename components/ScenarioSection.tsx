@@ -14,14 +14,14 @@ const scenarioData = [
   {
     title: 'Security & Surveillance: Smart Monitoring & Threat Detection',
     image: '/images/security.png',
-    howItWorks: `Drones patrol large facilities, critical infrastructure, or borders, equipped with AI-powered object detection. SmartNav software analyzes footage in real time, recognizing suspicious activity and alerting security teams.`,
+    howItWorks: `Drones patrol large facilities, critical infrastructure, or borders, equipped with AI-powered object detection. SmartNav software analyzes footage in real-time, recognizing suspicious activity, and alerting security teams.`,
     alt: 'Surveillance drone',
     bg: 'bg-color-light',
   },
   {
     title: 'High-Voltage Powerline and Sewer Inspection Drones',
     image: '/images/voltage.png',
-    howItWorks: `Inspecting power lines traditionally requires helicopters or human climbers, which is risky and expensive. Drones equipped with thermal and zoom cameras can inspect powerlines efficiently. Similarly, sewer systems are dangerous and difficult for human inspection due to toxic gases and, confined spaces. Drones equipped with advanced sensors can navigate pipelines safely.`,
+    howItWorks: `Inspecting power lines traditionally requires helicopters or human climbers, which is risky and expensive. Drones equipped with thermal and zoom cameras can inspect powerlines efficiently. Similarly, sewer systems are dangerous and difficult for human inspection due to toxic gases and confined spaces. Drones equipped with advanced sensors can navigate pipelines safely.`,
     alt: 'Tunnel drone',
     bg: 'bg-gray-100'
   },
@@ -44,7 +44,7 @@ const ScenarioSection: React.FC = () => {
           One Software, <span className="text-header">Infinite Applications</span>
         </h2>
 
-        <ol className="text-gray-900 text-xl md:text-2xl mt-16 leading-relaxed list-decimal list-inside space-y-2 mx-auto text-center">
+        <ol className="text-gray-900 text-xl md:text-2xl mt-16 leading-relaxed list-inside space-y-2 mx-auto text-center">
           <li>A scalable AI-driven drone software solution</li>
           <li>Integrates with various drone types</li>
           <li>Collects, analyzes, and visualizes aerial data in real time</li>

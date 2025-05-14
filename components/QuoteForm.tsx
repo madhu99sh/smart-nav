@@ -67,8 +67,8 @@ export default function GetAQuoteSection() {
         <div className="md:col-span-3 h-full">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-black">Get a Quote</h2>
           <p className="text-gray-700 mb-10 text-md md:text-xl">
-            We&apos;re here to help! Whether you have questions about our services, need support,
-            or want to explore partnership opportunities, reach out to us.
+            We&apos;re here to help! Reach out, whether you have questions about our services, need support,
+            or want to explore partnership opportunities.
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
             <div>
@@ -101,7 +101,7 @@ export default function GetAQuoteSection() {
                 name="phone"
                 value={form.phone}
                 onChange={handleChange}
-                placeholder="Phone no."
+                placeholder="Phone"
                 className="border rounded-xl px-4 py-3 w-full text-black"
               />
               {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}

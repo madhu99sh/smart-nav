@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <p className="text-gray-300 text-base text-md md:text-lg leading-loose oswald-text">
           A single drone software platform with AI-driven data processing, real-time analytics,
-          and cloud connectivity can revolutionize multiple industries.
+          and cloud connectivity that can revolutionize multiple industries.
         </p>
         <button 
           onClick={scrollToQuoteForm}

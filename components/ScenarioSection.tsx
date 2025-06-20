@@ -7,7 +7,7 @@ const scenarioData = [
   {
     title: 'Public Safety & Disaster Response: Rapid Assessment & Emergency Management',
     image: "/images/public-safety.png",
-    howItWorks: `Drones deployed in emergency situations such as wildfires, floods, or search-and-rescue missions stream real-time data to command centers. SmartNav software uses AI to assess risks, identify survivors, and guide response teams.`,
+    howItWorks: `Drones deployed in emergency situations such as wildfires, floods, or search-and-rescue missions stream real-time data to command centers. SmartNav software uses artificial intelligence powered to assess risks, identify survivors, and guide response teams.`,
     alt: 'Drone in disaster zone',
     bg: 'bg-gray-100'
   },
@@ -51,7 +51,7 @@ const ScenarioSection: React.FC = () => {
         </ol>
 
         <h3 className="text-2xl md:text-4xl font-semibold text-header mt-16 text-center">
-          Our versatile software adapts to multiple scenarios
+             One versatile software fits multiple scenarios
         </h3>
       </div>
 
